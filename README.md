@@ -51,3 +51,21 @@ The election audit revealed the following pieces of information, which can also 
 ![](https://github.com/HannaKim4673/Election_Analysis/blob/main/Election%20Audit%20Output.png)
 
 ## Challenge Election Audit Summary
+In order to make this project's python code usable for any election, the following two changes can be made. The below line
+
+![](https://github.com/HannaKim4673/Election_Analysis/blob/main/Original%20Code%201.png)
+
+(which is used to load the file holding the colorado election data) can be changed to an a series of lines that includes input statements like this:
+
+![](https://github.com/HannaKim4673/Election_Analysis/blob/main/Suggested%20Additions/Suggested%20Revision.png)
+
+This way, the python code will be able to read in and load data for any election as opposed to being set to always analyze the Colorado election data file. Another change that can make the code usable for other elections would be to add the following highlighted lines of code:
+
+![](https://github.com/HannaKim4673/Election_Analysis/blob/main/Suggested%20Additions/Suggested%20Addition%201.png)
+![](https://github.com/HannaKim4673/Election_Analysis/blob/main/Suggested%20Additions/Suggested%20Addition%202.png)
+![](https://github.com/HannaKim4673/Election_Analysis/blob/main/Suggested%20Additions/Suggested%20Addition%203.png)
+![](https://github.com/HannaKim4673/Election_Analysis/blob/main/Suggested%20Additions/Suggested%20Addition%204.png)
+![](https://github.com/HannaKim4673/Election_Analysis/blob/main/Suggested%20Additions/Suggested%20Addition%205.png)
+![](https://github.com/HannaKim4673/Election_Analysis/blob/main/Suggested%20Additions/Suggested%20Addition%206.png)
+
+By doing that, the code will be able to perform audits for national elections as well as state elections. In the end, the revised code should resemble the code in this [PyPoll Suggested Revisions.txt](https://github.com/HannaKim4673/Election_Analysis/blob/main/Suggested%20Additions/PyPoll%20Suggested%20Revision.txt) file.
